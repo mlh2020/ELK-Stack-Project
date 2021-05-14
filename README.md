@@ -22,10 +22,10 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _available____, in addition to restricting _inbound access____ to the network.
+Load balancing ensures that the application will be highly _available, in addition to restricting _inbound access to the network.
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _file systems of VMs on the network____ and system __metrics___.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _file systems of VMs on the network and system_metrics.
 
 
 The configuration details of each machine may be found below.
