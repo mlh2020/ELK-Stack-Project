@@ -42,18 +42,19 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the `Jump-Box-Provisioner` machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- `local.machine.ip`
 
 Machines within the network can only be accessed by each other.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name                 | Publicly Accessible | Allowed IP |
-|----------------------|---------------------|------------|
-| Jump-Box-Provisioner | Yes                 | 10.2.0.5   |
-| Web-1                | No                  | 10.2.0.6   |
-| Web-2                | No                  | 10.2.0.8   |
-| Web-3                | No                  | 10.2.0.9   |
+| Name                 | Publicly Accessible | Allowed IP    |
+|----------------------|---------------------|---------------|
+| Jump-Box-Provisioner | Yes                 | Local Machine |
+| Web-1                | No                  | 10.2.0.0/16   |
+| Web-2                | No                  | 10.2.0.0/16   |
+| Web-3                | No                  | 10.2.0.0/16   |
+| ELK-SERVER           | No                  | 10.1.0.0/16   |
 
 ### Elk Configuration
 
