@@ -50,11 +50,12 @@ Machines within the network can only be accessed by each other.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name                 | Publicly Accessible | Allowed IP |
+|----------------------|---------------------|------------|
+| Jump-Box-Provisioner | Yes                 | 10.2.0.5   |
+| Web-1                | No                  | 10.2.0.6   |
+| Web-2                | No                  | 10.2.0.8   |
+| Web-3                | No                  | 10.2.0.9   |
 
 ### Elk Configuration
 
